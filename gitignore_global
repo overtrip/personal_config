@@ -1,0 +1,35 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    .gitignore_global                                  :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: zaz <zaz@staff.42.fr>                      +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2013/06/20 15:51:46 by zaz               #+#    #+#              #
+#    Updated: 2015/12/04 18:04:32 by jealonso         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# Compiled source files
+.nfs*
+*.a
+*.o
+*.so
+a.out
+*.class
+*.com
+*.pyc
+
+# Editor backups
+\#*#
+*~
+.*.swp
+
+# OS-generated crap
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
