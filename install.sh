@@ -12,3 +12,7 @@ elif
     brew install vim
 fi
 ~/.brew/bin/brew install vim
+if [[ $USER != jealonso ]] && [[ $USER != overtrip ]]
+then
+    sed -i.back "s/jealonso/$USER/g" ~/.gitconfig
+fi
