@@ -10,4 +10,7 @@ source ~/.config_common/zshrc
 cd ~/.myvim
 git submodule init
 git submodule update
+/usr/local/bin/brew update
+~/.brew/bin/brew install vim
+source ~/.config_common/zshrc
 ```
