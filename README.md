@@ -10,5 +10,13 @@ source ~/.config_common/zshrc
 
 if use a personnal computer Apple
 change terminal default
+
 chsh -s /bin/zsh $USER
+ln -s .myvim .vim
+vim .vim
+
+select vimrc file and change line 18 and 19
+
+let c_sys = $C_SCHOOL
+if c_sys == 'YES'
 ```
