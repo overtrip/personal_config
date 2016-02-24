@@ -14,3 +14,5 @@ if [[ $USER != jealonso ]] && [[ $USER != overtrip ]]
 then
     sed -i.back "s/jealonso/$USER/g" ~/.gitconfig
 fi
+ln -s .myvim .vim
+ln -s .myvim/vimrc .vimrc
