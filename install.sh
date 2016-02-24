@@ -2,16 +2,14 @@
 
 cd
 git clone git@github.com:Geam/config_vim.git .myvim
-cd ~/.myvim
-git submodule init
-git submodule update
 if [[ -d /goinfre ]]
 then
     /usr/local/bin/brew update
+    $HOME/.brew/bin/brew install vim
 elif
     brew install vim
 fi
-~/.brew/bin/brew install vim
+vim +PluginInstall +qa
 if [[ $USER != jealonso ]] && [[ $USER != overtrip ]]
 then
     sed -i.back "s/jealonso/$USER/g" ~/.gitconfig
